@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.shader {
+    background-color: #4A4563;
+}
+
+.shader:hover {
+    background-color: #383348;
+}
+
+.product:hover, .popular:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
